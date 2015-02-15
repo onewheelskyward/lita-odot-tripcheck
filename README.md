@@ -1,6 +1,6 @@
 # lita-odot-tripcheck
 
-TODO: Add a description of the plugin.
+
 
 ## Installation
 
@@ -13,7 +13,11 @@ gem "lita-odot-tripcheck"
 
 ## Configuration
 
-TODO: Describe any configuration attributes the plugin exposes.
+Lita.configure do |config|
+  config.handlers.odot_tripcheck.uri = ''  # Ensure you put 
+  config.handlers.odot_tripcheck.uid = 'xxxxxxxxx'
+end
+
 
 ## Usage
 
